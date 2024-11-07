@@ -15,6 +15,7 @@ useHead({
   <div class="home">
     <h1>Home Page</h1>
     <img alt="" src="/images/profil-min.png">
+    <v-btn>Test</v-btn>
   </div>
 
 </template>

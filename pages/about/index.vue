@@ -1,10 +1,5 @@
 <template>
   <div class="about">
-    <Head>
-      <Title>About Page</Title>
-      <meta>
-      </meta>
-    </Head>
     <h1>تعرف علينا أكثر</h1>
   </div>
 </template>
@@ -14,6 +9,9 @@
 </style>
 
 <script setup>
+definePageMeta({
+  layout: "about-layout"
+})
 useSeoMeta({
   description: "About Page",
   keywords: "vision, Sirat, islamic",
