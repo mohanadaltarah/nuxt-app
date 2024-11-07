@@ -4,10 +4,6 @@ export default defineNuxtConfig({
     devtools: {enabled: true},
     css: ["@/assets/style.css"],
     app: {
-        head: {
-            meta: [
-                {}
-            ]
-        }
+        pageTransition: {name: "page", mode: "in-out"},
     }
 })
