@@ -1,5 +1,14 @@
 <script lang="ts" setup>
-
+useHead({
+  title: "Home Page",
+  meta: [{
+    name: "description",
+    content: "A home for aspiring young people",
+  }, {
+    name: "keywords",
+    content: "self-development, strong, confident, hard-worker"
+  }]
+})
 </script>
 
 <template>
