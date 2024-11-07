@@ -6,15 +6,15 @@
 
   </div>
 </template>
-<script lang="ts" setup>
+<script setup>
 
 
 </script>
 
 <style>
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+@font-face {
+  font-family: Rakkas;
+  src: url(/fonts/Rakkas-Regular.ttf);
 }
+
 </style>
