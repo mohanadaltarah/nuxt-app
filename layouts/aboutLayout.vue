@@ -14,7 +14,7 @@
           <nuxt-link :to="{name: 'profile'}">
             Profile
           </nuxt-link>
-          <nuxt-link :to="{name: 'blogs'}"
+          <nuxt-link :to="{name: 'products'}"
           >Blogs
           </nuxt-link>
         </ul>
@@ -31,7 +31,7 @@
           <nuxt-link :to="{name: 'profile'}">
             Profile
           </nuxt-link>
-          <nuxt-link :to="{name: 'blogs'}"
+          <nuxt-link :to="{name: 'products'}"
           >Blogs
           </nuxt-link>
         </ul>

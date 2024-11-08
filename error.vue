@@ -6,12 +6,8 @@
       </v-card-title>
       <v-card-title>
         {{ error.statusMessage }}
-        {{ error }}
       </v-card-title>
-      <v-card-text>
-        {{ error }}
-      </v-card-text>
-      <v-btn @click="$router.push({name: 'index'})">
+      <v-btn @click="clearErr">
         back to homepage
       </v-btn>
     </v-card>
@@ -22,6 +18,10 @@
 <script lang="ts" setup>
 
 defineProps(["error"])
+
+const clearErr = () => {
+  clearError({redirect: "/"})
+}
 </script>
 
 

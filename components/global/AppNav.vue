@@ -8,8 +8,8 @@
       <nuxt-link :to="{name: 'profile'}">
         Profile
       </nuxt-link>
-      <nuxt-link :to="{name: 'blogs'}"
-      >Blogs
+      <nuxt-link :to="{name: 'products'}"
+      >Products
       </nuxt-link>
     </nav>
 
