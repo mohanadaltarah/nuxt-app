@@ -21,5 +21,6 @@
 
 <script setup>
 
+
 const {data} = useFetch('https://dummyjson.com/products')
 </script>

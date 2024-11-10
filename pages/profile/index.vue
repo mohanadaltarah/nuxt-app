@@ -3,3 +3,10 @@
     <h1>This is the profile page</h1>
   </div>
 </template>
+
+
+<script setup>
+definePageMeta({
+  middleware: ['auth']
+})
+</script>

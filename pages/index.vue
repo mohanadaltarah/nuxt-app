@@ -1,4 +1,13 @@
-<script lang="ts" setup>
+<template>
+  <div class="home">
+    <h1>Home Page</h1>
+    <img alt="" src="/images/profil-min.png">
+    <v-btn>Test</v-btn>
+  </div>
+
+</template>
+
+<script setup>
 useHead({
   title: "Home Page",
   meta: [{
@@ -9,16 +18,10 @@ useHead({
     content: "self-development, strong, confident, hard-worker"
   }]
 })
+
+
 </script>
 
-<template>
-  <div class="home">
-    <h1>Home Page</h1>
-    <img alt="" src="/images/profil-min.png">
-    <v-btn>Test</v-btn>
-  </div>
-
-</template>
 
 <style scoped>
 img {
