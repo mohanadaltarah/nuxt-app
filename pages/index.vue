@@ -8,16 +8,12 @@
 </template>
 
 <script setup>
-useHead({
-  title: "Home Page",
-  meta: [{
-    name: "description",
-    content: "A home for aspiring young people",
-  }, {
-    name: "keywords",
-    content: "self-development, strong, confident, hard-worker"
-  }]
-})
+
+console.log(useCookie("user").value);
+
+useCookie("user", {
+  expires: new Date(Date.now() + 1000)
+}).value = "test";
 
 
 </script>
